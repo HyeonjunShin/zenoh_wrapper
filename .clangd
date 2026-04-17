@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: 
+    - "-DZENOHCXX_ZENOHC"
+    - "-DZ_FEATURE_PUBLICATION=1"
+    - "-DZ_FEATURE_SUBSCRIPTION=1"
+    - "-DZ_FEATURE_QUERYABLE=1"
+  # 만약 특정 경로의 헤더를 못 찾는다면 아래와 같이 추가할 수 있습니다.
+  # - "-I/home/hyeonjun/2_code/zenoh_wrapper/thirdparty/zenoh/include"
+
+Index:
+  Background: Build

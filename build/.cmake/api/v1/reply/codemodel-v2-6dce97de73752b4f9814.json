@@ -1,0 +1,189 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a2f24377a5742b7673c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/communicate",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.communicate-Debug-106bf905e1f29a1125b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/communicate",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/camera",
+					"jsonFile" : "directory-src.camera-Debug-0f0ba899435f05029974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/camera",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Debug-b461ee4d3e8bf1e69d73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "uzenoh",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "camera_basic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-camera_basic-Debug-60afb25d0ef0d34bc8c4.json",
+					"name" : "camera_basic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "kinect::@65a56c5d20cbddee3590",
+					"jsonFile" : "target-kinect-Debug-eebbb325de364e1dcac9.json",
+					"name" : "kinect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "my_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-my_test-Debug-7a323c9fe6ff14bf81cd.json",
+					"name" : "my_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pub_ex::@714eac15f71a94114fdf",
+					"jsonFile" : "target-pub_ex-Debug-4f6ed1fb591d01bc0787.json",
+					"name" : "pub_ex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sub_ex::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sub_ex-Debug-d66bfbf19acb3310bfd3.json",
+					"name" : "sub_ex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uzenoh::@fafe23bddc7f44bd4261",
+					"jsonFile" : "target-uzenoh-Debug-2ad1e324ae286ce9a583.json",
+					"name" : "uzenoh",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hyeonjun/2_code/zenoh_wrapper/build",
+		"source" : "/home/hyeonjun/2_code/zenoh_wrapper"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

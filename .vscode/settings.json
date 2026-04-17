@@ -1,0 +1,9 @@
+{
+  "clangd.detectExtensionConflicts": false,
+  "C_Cpp.autocomplete": "Disabled",
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.intelliSenseEngineFallback": "Disabled",
+  
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+}
