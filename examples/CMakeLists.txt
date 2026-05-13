@@ -3,10 +3,12 @@
 # if(BUILD_EXAMPLES)
 add_executable(pub_ex pub.cpp)
 add_executable(sub_ex sub.cpp)
+add_executable(pub_image pub_image.cpp)
 add_executable(camera_basic camera_basic.cpp)
 
 target_link_libraries(pub_ex PRIVATE uzenoh)
 target_link_libraries(sub_ex PRIVATE uzenoh)
+target_link_libraries(pub_image PRIVATE uzenoh kinect)
 target_link_libraries(camera_basic PUBLIC kinect)
 # target_include_directories(camera_basic PUBLIC ${OpenCV_INCLUDE_DIRS})
 

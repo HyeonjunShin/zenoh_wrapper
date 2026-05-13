@@ -1,6 +1,6 @@
 add_library(uzenoh uzenoh.cpp)
 
-target_compile_definitions(uzenoh PUBLIC ZENOHCXX_ZENOHC)
+target_compile_definitions(uzenoh PUBLIC ZENOHCXX_ZENOHC )
 set(ZENOH_ROOT "${CMAKE_SOURCE_DIR}/thirdparty/zenoh")
 target_include_directories(uzenoh
     PUBLIC 
@@ -14,6 +14,7 @@ target_link_libraries(uzenoh
         "${ZENOH_ROOT}/lib/libzenohc.a"
         pthread 
         dl
+        kinect
 )
 
 # make install targets

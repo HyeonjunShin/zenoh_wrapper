@@ -13,6 +13,9 @@ class Kinect {
     void transformDepthToColor(const k4a_image_t depth_image,
                                k4a_image_t* transformed_depth_image);
 
+    void run();
+    void stop();
+
    private:
     k4a_device_t device_;
     k4a_device_configuration_t config;
